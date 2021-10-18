@@ -69,3 +69,68 @@ form button{
     width: 100%;
     
 }
+
+.create-room{
+    display: flex;
+    margin-top: 64px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    background: #ea4335;
+    color: #ffff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    transition: filter 0.2s;
+}
+
+.create-room img{
+    margin-right: 8px;
+
+}
+
+.create-room:hover{
+    filter: brightness(0.9);
+}
+
+h2{
+    font-size: 24px;
+    margin: 64px 0 24px;
+    font-family: 'Roboto' sans-serif;
+}
+
+.seperator{
+    font-size: 14px;
+    color: #a8a8b3;
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+.seperator::before{
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #a8a8b3;
+    margin-right: 16px;
+}
+
+.seperator::after{
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #a8a8b3;
+    margin-left: 16px;
+}
+
+p{
+    font-size: 14px;
+    color: #737380;
+    margin-top: 16px;
+
+}
+
+p a{
+    color: #e559f9;
+}
